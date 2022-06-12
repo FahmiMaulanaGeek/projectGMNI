@@ -14,7 +14,9 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="{{asset('css/styles.css')}}" rel="stylesheet" />
+        <link rel="stylesheet" href="{{asset('css/styles.css')}}">
+
+        
 
 
        
@@ -118,7 +120,9 @@
         </nav>
         <!-- Masthead-->
         {{-- <header class="masthead bg-primary text-white text-center" style="background-repeat: no-repeat; background-image: url('{{asset('assets/img/headergmni.jpg')}}'); background-size: cover; background-position: top right; width: 100%; height: 30%; opacity: 1; visibility: inherit; z-index: 20;"> --}}
-          </div>  
+        
+        <body>
+        </div>  
         <section class="page-section portfolio" id="portfolio">
             <div class="container"style="position: relative; top:50px;">
                 <!-- ISI KONTAINER -->
@@ -126,7 +130,8 @@
                 
             </div>
                 
-        </section>
+        </section>    
+        </body>
        
         <!-- Footer--> 
         <footer class="footer text-center" style="background-color: #B22222;">
